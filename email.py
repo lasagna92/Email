@@ -104,7 +104,7 @@ user_choice = ""
 # Menu for the user input
 while user_choice != "quit":
     user_choice = input("\nWhat would you like to do - read all / count / display spam / display unread / "
-                        "mark as spam / send / mark as read / send / quit?\t")
+                        "mark as spam / send / mark as read / quit?\t")
     # Read the emails
     if user_choice == "read all":
         print('\nAll your email:')
